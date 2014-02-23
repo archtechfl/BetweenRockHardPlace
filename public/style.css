@@ -1,0 +1,82 @@
+		.rock {
+			display: inline-block;
+			width: 500px;
+			height: 500px;
+			background-image: url(rock.jpg);
+			background-repeat: no-repeat;
+			text-align: center;
+		}
+		.paper {
+			display: inline-block;
+			height: 500px; 
+			width: 500px;
+			background-image: url(paper.jpg);
+			background-repeat: no-repeat;
+			text-align: center;
+		}
+		.scissors {
+			display: inline-block;
+			width: 500px;
+			height: 500px;
+			background-image: url(scissors.jpg);
+			background-repeat: no-repeat;
+			text-align: center;
+		}
+		
+		.mortalKombat{
+			display: inline-block;
+			width: 500px;
+			height: 500px;
+			background-image: url(cat.jpg);
+			background-repeat: no-repeat;
+		}
+		.hollander{
+			display: inline-block;
+			width: 500px;
+			height: 500px;
+			background-image: url(HM.jpg);
+			background-repeat: no-repeat;
+		}
+		
+		p {
+			color: #FFF;
+			font-size: 60px;
+		}
+		
+		p#throw {
+			color:#000;
+			height:100px;
+			width:1000px;
+		}
+		
+		.splash {
+			position:absolute;
+			left:20%;
+			top:10px;
+			width:600px;
+			height:600px;
+		}
+		
+		/* End of game screens */
+		#tie{
+			position:absolute;
+			left:20%;
+			top:10px;
+			width:600px;
+			height:600px;
+			opacity: .6;	
+		}
+		
+		#win{
+			position:relative;
+			top:200px;
+			width:250px;
+			height:250px;
+		}
+		
+		#loss{
+			position:relative;
+			top:200px;
+			width:250px;
+			height:250px;
+		}
